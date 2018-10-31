@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<title>Index</title>
+<meta character="utf-8">
+<meta name="viewport" content="width=device-width, initial scale=1">
+<head>
+<style>
+*
+{
+box-sizing: border-box;
+}
+body {
+  margin: 10;
+}
+.header
+{
+ background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+}
+.footer
+{
+background:lightgrey;
+padding:20px;
+text-align:center;
+text-size:100px;
+}
+.topnav
+{
+overflow:hidden;
+ background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.section
+{
+padding:80px;
+}
+</style>
+</head>
+<body>
+<div class="header"><h1>Welcome...</h1></div>
+<div class="topnav">
+<a href="/home/knot9/Desktop/HTML/layout1/master1.htm"><b>Home</b></a>
+<a href="file:///C:/Users/hp/Desktop/layout1/services.htm"><b>Services</b></a>
+<a href="#"><b>Contact</b></a>
+</div>
+<div class="section">
+<div class="article">
+<div style="text-align:justify; padding:30px">
+<h3>
+Techie Venue in Delhi. Computer Training Institutes with Address, Contact Number, Photos, Maps.
+View Techie Venue, Delhi on Justdial.
+Since 2016, Techie Venue in NIT, Delhi has been offering professional training to students. 
+It specialises and is well-known for training students as well as working professionals in accounting, web designing, programming languages, hardware and networking. 
+It is run and managed by a seasoned professionals who leads a team of educators and trainers having relevant domain expertise. 
+At this institution, one can get trained in the subject of their choice by opting from a wide range of courses. 
+These easy-to-follow courses are primarily aimed at students, working professionals as well as IT professionals who want to enhance their knowledge and further their career prospects.
+ Located main road, you can find this institution with relative ease at 3 a/172, nit 3 in NIT. 
+Undoubtedly it is one of the best computer training institutes in NIT, Delhi.
+</h3>
+</div>
+</div></div>
+<div class="footer"><marquee><b>Copyright@2018</b></marquee>
+</div>
+</body>

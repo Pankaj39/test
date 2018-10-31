@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>index</title>
+
+<style>
+
+* {
+    
+box-sizing: border-box;
+
+}
+
+body
+ {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header
+
+{
+
+background:#FDEDEC;
+
+text-size:100px;
+
+color:#D35400;
+
+padding:30px;
+
+text-align:center;
+
+}
+
+nav1
+
+{
+
+float:left;
+width:20%;
+
+height:480px;
+
+padding:80px;
+
+background:#EAECEE;
+
+}
+
+
+nav2
+
+{
+float:right;
+
+width:25%;
+
+height:480px;
+
+padding:80px;
+
+background:#EAECEE;
+}
+
+nav1 ul
+ {
+    list-style-type: none;
+   
+ padding: 0;
+
+}
+
+nav2 ul
+ {
+   
+ list-style-type: none;
+  
+  padding: 0;
+
+}
+
+article
+
+{
+
+float:left;
+
+width:55%;
+
+height:480px;
+
+padding:20px;
+
+background:#F5CBA7;
+
+}
+
+footer
+
+{
+
+background:#FDEDEC;
+
+text-size:20px;
+
+color:#D35400;
+
+padding:10px;
+
+text-align:center;
+
+}
+
+section:after 
+{
+ 
+content: "";
+  
+  display: table;
+   
+ clear: both;
+
+}
+
+@media(max-width:600px)
+{
+
+nav1,nav2,article
+{
+
+width:100%;
+height:auto;
+
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header><b><h1><marquee>Welcome</marquee></h1></b>
+</header>
+
+<section>
+
+<nav1>
+<h3>
+<ul>
+<li><a href="#L1">London</a></li><br>
+
+<li><a href="#P">Paris</a>
+</li><br>
+
+<li><a href="#NY">New York</a></li>
+</ul></h3>
+</nav1>
+
+<article>
+<h2 id="L1">London</h2>
+
+<p style="text-align:justify">London is one of the leading global cities in the arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism and transportation. It is one of the world's largest financial centres and has the fifth or sixth largest metropolitan area GDP in the world.</p>
+<h2 id="P">Paris</h2>
+<p style="text-align:justify">Paris is the capital and most populous city of France, with an area of 105 square kilometres (41 square miles) and a population of With 200,000 inhabitants in 1328, Paris, then already the capital of France, was the most populous city of Europe. By comparison, London in 1300 had 80,000 inhabitants. Paris has been one of Europe's major centres of finance, commerce, fashion, science, music, and painting.</p>
+<h2 id="NY">New York</h2>
+<p style="text-align:justify">The City of New York, often called New York City (NYC) or simply New York (NY), is the most populous city in the United States. With an estimated 2017 population of distributed over a land area of about 302.6 square miles (784 km2), New York City is also the most densely populated major city in the United States.</p>
+</article>
+
+<nav2><marquee direction="up" behaviour="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+
+<ul>
+<li style="text-align:center"><img src="/home/knot9/Desktop/HTML/images/1.jpg" style="height:100px; width:150px; border:2px solid blue"><br>
+<i>London</i></li>
+
+<li style="text-align:center"><img src="/home/knot9/Desktop/HTML/images/2.jpg" style="height:100px; width:150px; border:2px solid blue"><br>
+<i>Paris</i></li>
+<li style="text-align:center">
+<img src="/home/knot9/Desktop/HTML/images/3.jpg" style="height:100px; width:150px; border:2px solid blue"><br>
+<i>New York</i></li>
+</ul></marquee>
+</nav2>
+
+</section>
+
+<footer><b><h3>Copyright@2018</h3></b></footer>
+
+</body>
